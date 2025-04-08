@@ -1,4 +1,7 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --main-font: raleway;
+  --main-font-size: 18px;
+  --accent-family: 'IBM Plex mono';
+  --font-weight: 400;
+  --main-gap: 18px;
+}
