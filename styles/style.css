@@ -102,7 +102,7 @@
   color: var(--header-logo-color, #db00ff);
   text-shadow: 4px 4px var(--accent-color, #ff0070);
   position: relative;
-  letter-spacing: 4px
+  font-family: var(--accent-family);
 }
 
 .header__text {
@@ -115,11 +115,11 @@
   align-self: end;
   text-align: left;
   top: -66px;
-  padding-inline-end: 88px;
+  padding-inline-end: 87px;
 
 }
 .title-decor {
-  background: var(--accent-color);  
+  background: var(--accent-color);
   color: var(--main-heading-color);
   font-size: var(--main-font-size);
 }
@@ -128,6 +128,9 @@
   display: grid;
   gap: 50px;
   padding: 0 10px;
+}
+.title-images {
+  margin-block-start: -6px;
 }
 .content-section {
   display: grid;
@@ -214,8 +217,8 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 83%;
   color: var(--header-logo-color, #db00ff);
-  Letter-spacing: 7px;
   text-shadow: 4px 4px var(--accent-color, #ff0070);
+  font-family: var(--accent-family);
 }
 @media (width >= 768px) {
   .page:not(:first-of-type) {
@@ -233,18 +236,17 @@
     position: relative;
     top: 107px;
     grid-column: 2 / 3;
-    left: -11px;
   }
   .header__text {
     grid-column: 2 / 4;
     align-self: center;
     position: relative;
     top: -14px;
-    margin-inline-end: 3px;
+    margin-inline-start: 9px;
   }
   .header-rec {
     grid-column: 2 / 3;
-    left: -40px;
+    left: -29px;
     position: relative;
     justify-self: end;
   }
@@ -254,7 +256,7 @@
   .main {
     margin-block-start: 0;
     padding: 20px;
-    gap: calc(4* var(--main-gap));
+    gap: calc(4.5* var(--main-gap));
   }
   .content-section {
     grid-template-columns: 1fr 2fr;
@@ -279,7 +281,7 @@
   .content__title-concentration {
     padding-block-start: 0;
     padding-inline-end: 535px;
-    margin-block-end: 3px;
+    margin-block-end: 17px;
   }
   .abvices {
     display: grid;
@@ -306,7 +308,6 @@
   }
   .image__tape {
     grid-row: 3 / 5;
-    min-height: 568px;
     object-fit: cover;
     min-height: 100%;
   }
@@ -338,14 +339,14 @@
     margin-block-start: 0;
     align-self: start;
     top: 0;
-    left: -45px;
+    left: -49px;
   }
   .header-rec {
     grid-column: 3 / 4;
     left: -30px;
   }
   .header__theme-menu-list {
-    flex-direction: row; 
+    flex-direction: row;
   }
   .header__text {
     margin-inline-start: 178px;
@@ -374,7 +375,9 @@
     min-height: 751px;
   }
   .main__heading {
-    letter-spacing: 8px
+    top: -10px;
   }
-
+  .footer::before {
+    top: 9px;
+  }
 }
