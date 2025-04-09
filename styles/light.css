@@ -15,6 +15,12 @@
   --section-heading-color: #353430;
   --header-logo-color: #ffc2e6;
   --footer-logo-color: #ffc2e6;
+  --nav-border-color-day: #353430;
+  --nav-border-color-neon: transparent;
+  --сorner-color: #353430;
+  --heading: #353430;
+  --display-rec: none;
+  --nav-border-hover-color: rgba(50, 49, 45, 0.4);
 }
 
 .theme-light .page {
@@ -28,6 +34,12 @@
   --section-heading-color: #353430;
   --header-logo-color: #ffc2e6;
   --footer-logo-color: #ffc2e6;
+  --nav-border-color-day: #353430;
+  --nav-border-color-neon: transparent;
+  --сorner-color: #353430;
+  --heading: #353430;
+  --display-rec: none;
+  --nav-border-hover-color: rgba(50, 49, 45, 0.4);
 }
 @media (prefers-color-scheme: light) {
   .page {
@@ -41,5 +53,11 @@
     --section-heading-color: #353430;
     --header-logo-color: #ffc2e6;
     --footer-logo-color: #ffc2e6;
+    --nav-border-color-day: #353430;
+    --nav-border-color-neon: transparent;
+    --сorner-color: #353430;
+    --heading: #353430;
+    --display-rec: none;
+    --nav-border-hover-color: rgba(50, 49, 45, 0.4);
     }
   }

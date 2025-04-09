@@ -8,40 +8,60 @@
   --bg-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --main-bg-color: #fff1f7;
-  --main-text-color: #000028;
-  --main-text-color-block: #f1b2ce;
-  --nav-color: #000028;
+  --main-text-color: #f1b2ce;
+  --nav-color: #ff0070;
   --nav-hover-color: rgb(50 49 45 / 0.4);
   --main-heading-color: #000028;
   --section-heading-color: #000028;
   --header-logo-color: #db00ff;
   --footer-logo-color: #db00ff;
+  --nav-border-color-day: transparent;
+  --nav-border-color-neon: #ff0070;
+  --heading: #ff0070;
+  --сorner-color: #ff0070;
+  --display-rec: block;
+  --nav-border-hover-color: rgba(255, 0, 112, 0.4);
+  --link-outline: #f1b2ce;
 }
 
 .theme-dark .page {
   --bg-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --main-bg-color: #fff1f7;
-  --main-text-color: #000028;
+  --main-text-color: #f1b2ce;
   --main-text-color-block: #f1b2ce;
-  --nav-color: #000028;
+  --nav-color: #ff0070;
   --nav-hover-color: rgb(50 49 45 / 0.4);
   --main-heading-color: #000028;
   --section-heading-color: #000028;
   --header-logo-color: #db00ff;
   --footer-logo-color: #db00ff;
+  --nav-border-color-day: transparent;
+  --nav-border-color-neon: #ff0070;
+  --heading: #ff0070;
+  --сorner-color: #ff0070;
+  --display-rec: block;
+  --nav-border-hover-color: rgba(255, 0, 112, 0.4);
+  --link-outline: #f1b2ce;
 }
 @media (prefers-color-scheme: dark) {
   .page {
     --bg-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --main-bg-color: #fff1f7;
-  --main-text-color: #000028;
-  --nav-color: #000028;
+  --main-text-color: #f1b2ce;
+  --nav-color: #ff0070;
   --nav-hover-color: rgb(50 49 45 / 0.4);
   --main-heading-color: #000028;
   --section-heading-color: #000028;
   --header-logo-color: #db00ff;
   --footer-logo-color: #db00ff;
+  --nav-border-color-day: transparent;
+  --nav-border-color-neon: #ff0070;
+  --heading: #ff0070;
+  --сorner-color: #ff0070;
+  --display-rec: block;
+  --nav-border-hover-color: rgba(255, 0, 112, 0.4);
+  --link-outline: #f1b2ce;
     }
   }
