@@ -184,7 +184,6 @@
   font-size: var(--main-font-size);
   line-height: 130%;
   color: var(--main-text-color, #f1b2ce);
-  Letter-spacing: 1px;
   font-family: var(--accent-family);
   letter-spacing: 0;
 }
@@ -202,7 +201,8 @@
 }
 .title-main {
   Line-height: 23px;
-  Word-spacing: 5px
+  Word-spacing: 0;
+  font-weight: 700;
 }
 .text-block__title-advice {
   font-weight: 400;
