@@ -106,7 +106,6 @@
   font-weight: var(--font-weight);
   color: var(--nav-color, #ff0070);
   background-color: transparent;
-  border: none;
   padding: 0 14px;
   text-transform: lowercase;
   border: 1px solid transparent;
@@ -167,6 +166,7 @@
 }
 .title-images {
   margin-block-start: -6px;
+  letter-spacing: 1px;
 }
 .content-section {
   display: grid;
@@ -185,6 +185,8 @@
   line-height: 130%;
   color: var(--main-text-color, #f1b2ce);
   Letter-spacing: 1px;
+  font-family: var(--accent-family);
+  letter-spacing: 0;
 }
 .text-block {
   display: flex;
@@ -204,6 +206,8 @@
 }
 .text-block__title-advice {
   font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: -1px;
 }
 .images {
   grid-column: 1;
@@ -219,7 +223,7 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  min-height: 668px;
+  min-height: 100vh;
   width: 100%;
   margin-block-start: 40px;
   padding: 10px;
@@ -308,8 +312,8 @@
   }
   .header::before {
     grid-row: 3 / 4;
-    top: 0;
-    left: 30px;
+    top: -20px;
+    left: 40px;
   }
   .content-section__title {
     padding-inline-end: 20px;
@@ -359,9 +363,8 @@
     right: 0;
   }
   .footer {
-    min-height: 1024px;
-    margin-block-start: 56px;
-    padding: 0 20px 20px;
+    margin-block-start: 40px;
+    padding: 20px;
   }
 }
 @media (width >= 1024px) {
@@ -406,9 +409,6 @@
   }
   .why {
     margin-block-start: 3px;
-  }
-  .footer {
-    min-height: 751px;
   }
   .main__heading {
     top: -10px;
