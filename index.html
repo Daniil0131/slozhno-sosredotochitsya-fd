@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/mobile-icon.png">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./styles/globals.css">
@@ -16,18 +17,18 @@
     <meta name="color-scheme" content="dark light" />
   </head>
   <body class="page">
-    <header class="header decorated-zone">
+    <header class="header decorated-zone сorner-decor">
       <div aria-hidden="true" class="header-rec">Rec</div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
-          <li class="header__theme-menu-item">
+          <li class="header__theme-menu-item header__theme-menu-item_type_light">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
               День
             </button>
           </li>
-          <li class="header__theme-menu-item">
+          <li class="header__theme-menu-item header__theme-menu-item_type_auto">
             <button
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
@@ -35,7 +36,7 @@
               Авто
             </button>
           </li>
-          <li class="header__theme-menu-item">
+          <li class="header__theme-menu-item header__theme-menu-item_type_dark">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
@@ -130,13 +131,13 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
         </h2>
         <div class="text-blocks">
-          <p class="title-decor title-main">
+          <h3 class="title-decor title-main">
             5 простых (на самом деле не очень) советов
-          </p>
+          </h3>
           <article class="text-block">
-            <h3 class="text-block__title title-decor text-block__title-advice">
+            <h4 class="text-block__title title-decor text-block__title-advice">
               Представьте небо и облака
-            </h3>
+            </h4>
             <p class="text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться. 
               Ведь часто именно тревожные мысли о сложных задачах как раз и мешают эти сложные задачи делать. 
@@ -189,16 +190,16 @@
           </article>
         </div>
       </section>
-      <section class="content-section grid">
+      <section class="grid">
         <h3 class="title-decor title-images">А можно в картинках?</h3>
-        <img class="images image__sunset" loading="lazy" src="./images/sunset.png" alt="">
-        <img class="images image__ice-cream" loading="lazy" src="./images/ice-cream.png" alt="">
-        <img class="images image__tape" loading="lazy" src="./images/tape.png" alt="">
-        <img class="images image__books" loading="lazy" src="./images/books.png" alt="">
-        <img class="images image__street" loading="lazy" src="./images/street.png" alt="">
+        <img class="images image__sunset" loading="lazy" src="./images/sunset.png" alt="Картинка заката на фоне гор">
+        <img class="images image__ice-cream" loading="lazy" src="./images/ice-cream.png" alt="Мороженное в мультяшном стиле">
+        <img class="images image__tape" loading="lazy" src="./images/tape.png" alt="Касета, которую окружают иконки и значки ПК">
+        <img class="images image__books" loading="lazy" src="./images/books.png" alt="Стопка кник, а на ней чашка">
+        <img class="images image__street" loading="lazy" src="./images/street.png" alt="Улица, фиолетового оттенка">
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer сorner-decor">
       <h2 class="footer__title">
         focus
       </h2>
