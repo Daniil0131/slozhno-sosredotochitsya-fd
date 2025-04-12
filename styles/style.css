@@ -301,7 +301,6 @@
   }
   .abvices {
     display: grid;
-    margin-block-start: 30px;
   }
   .grid {
     grid-template-columns: repeat(3, 1fr);
