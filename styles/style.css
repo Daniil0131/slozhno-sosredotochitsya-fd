@@ -168,6 +168,7 @@
   gap: 50px;
   padding: 0 10px;
   justify-content: center;
+  
 }
 .content-section {
   display: grid;
@@ -300,6 +301,7 @@
   }
   .abvices {
     display: grid;
+    margin-block-start: 30px;
   }
   .grid {
     grid-template-columns: repeat(3, 1fr);
@@ -352,6 +354,10 @@
     justify-self: center;
     margin-inline-start: 18px;
   }
+  .abvices {
+    margin-block-start: 81px;
+    margin-block-end: 40px;
+  }
   .header-rec {
     grid-column: 3 / 4;
   }
@@ -376,7 +382,7 @@
     gap: calc(var(--main-gap) / 1.6);
   }
   .main {
-    gap: calc(4.48* var(--main-gap));
+    display: block;
   } 
   .content-section__title {
     padding-block-end: 0;
@@ -384,9 +390,11 @@
   }
   .why {
     gap: calc(var(--main-gap) / 2);
+    margin-block-end: 42px;
   }
   .text-blocks {
     gap: calc(var(--main-gap) / 0.86);
+    margin-block-end: 41px
   }
   .grid {
     gap: calc(var(--main-gap) / 0.9);
