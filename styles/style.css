@@ -167,6 +167,7 @@
   display: grid;
   gap: 50px;
   padding: 0 10px;
+  justify-content: center;
 }
 .content-section {
   display: grid;
