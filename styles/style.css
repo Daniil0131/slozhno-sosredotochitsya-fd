@@ -345,7 +345,7 @@
 @media (width >= 1024px) {
   .header {
     grid-template-columns: repeat(3, 1fr);
-    min-height: 768px;
+    min-block-size: 768px;
   }
   .header__theme-menu {
     margin-block-start: 0;
