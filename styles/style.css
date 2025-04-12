@@ -82,7 +82,6 @@
 }
 .header__theme-menu-item {
   line-height: 23px;
-  border: 1px solid transparent;
   border: 1px solid var(--nav-border-color-auto);
 }
 .header__theme-menu-item:first-of-type {
