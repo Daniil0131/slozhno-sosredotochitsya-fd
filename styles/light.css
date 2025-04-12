@@ -30,7 +30,7 @@
   .page {
     --bg-image: 
       url(../images/cover-image-light.png),
-      linear-gradient(#fff1f7, #fff1f7),;
+      linear-gradient(#fff1f7, #fff1f7);
     --accent-color: #ff8dcb;
     --main-bg-color: #fff1f7;
     --main-text-color: #353430;
@@ -40,6 +40,7 @@
     --section-heading-color: #353430;
     --header-logo-color: #ffc2e6;
     --footer-logo-color: #ffc2e6;
+    --nav-border-color-day: transparent;
     --nav-border-color-neon: transparent;
     --nav-border-color-auto: #353430;
     --сorner-color: #353430;
